@@ -23,6 +23,8 @@ public class TimeWidgetLayout extends ViewGroup{
     private TimeWidget widget;
     private ValueAnimator animator;
 
+    private boolean isPage = false;
+
     public TimeWidgetLayout(Context context) {
         super(context);
         init();
